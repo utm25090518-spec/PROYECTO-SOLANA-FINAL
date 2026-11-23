@@ -1,0 +1,101 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #f4f4f8;
+  color: #1c1c28;
+  margin: 0;
+}
+.contenedor {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.tarjeta {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+.fila {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+button.accion {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #5b3df5;
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+button.accion:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+button.secundario {
+  background: #e7e5fb;
+  color: #3a2bb5;
+}
+button.peligro {
+  background: #fde7e7;
+  color: #b42318;
+}
+.tarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  flex-wrap: wrap;
+}
+.tarea:last-child {
+  border-bottom: none;
+}
+.hecha .titulo {
+  text-decoration: line-through;
+  color: #888;
+}
+.acciones {
+  display: flex;
+  gap: 6px;
+}
+.aviso {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  word-break: break-all;
+}
+.ok {
+  background: #e6f7ee;
+  color: #05603a;
+}
+.error {
+  background: #fde7e7;
+  color: #b42318;
+}
+.pequeno {
+  font-size: 0.8rem;
+  color: #666;
+}
